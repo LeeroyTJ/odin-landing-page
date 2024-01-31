@@ -69,4 +69,41 @@ button {
     border-radius: 5px;
     padding: 8px 29px;
     background-color: rgb(6, 164, 216);
+    cursor: pointer;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container2 {
+    padding: 40px 250px 130px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    width: 155px;
+    height: 155px;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    text-align: center;
+    width: 170px;
+}
+
+.box-text {
+    font-size: 18px;
+    margin-top: 7px;
 }
